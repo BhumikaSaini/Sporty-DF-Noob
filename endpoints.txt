@@ -1,0 +1,8 @@
+Admin panel http://127.0.0.1:8000/admin/
+
+User sign-up & authentication:
+GET on http://127.0.0.1:8000/auth_api/v1/users/
+POST on http://127.0.0.1:8000/auth_api/v1/rest-auth/registration/
+POST on http://127.0.0.1:8000/auth_api/v1/rest-auth/login/
+POST on http://127.0.0.1:8000/auth_api/v1/rest-auth/logout/
+
