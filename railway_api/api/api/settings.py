@@ -48,6 +48,7 @@ INSTALLED_APPS = [
 
     'users',
     'auth_api',
+    'chat_api',
 ]
 
 AUTH_USER_MODEL = 'users.CustomUser'
