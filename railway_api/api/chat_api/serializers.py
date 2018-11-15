@@ -11,3 +11,6 @@ class MessageSerializer(serializers.ModelSerializer):
 		model = models.Message
 		fields = ('msg', 'userid', 'isReceived', 'msgTime')
 		read_only_fields = ('isReceived', 'msgTime')
+
+	def getMsg(self):
+		return self.msg
